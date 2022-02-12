@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+h1 {
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    position: relative;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    height: 100%;
+    width: max-content;
+}
+
+h1::before,
+h1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+h1::before {
+    background-color: #fff;
+    animation: typewriter 3s steps(21) 750ms forwards; 
+}
+
+h1::after {
+    width: 0.125em;
+    background: black;
+    animation: 
+        typewriter 3s steps(21) 750ms  forwards,
+        blink 750ms steps(24) infinite; 
+}
+
+h2 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: clamp(0.8rem, 1.5vw + 0.5rem, 2rem);
+    padding-top: 1.5em;
+    position: relative;
+    opacity: 0;
+    animation: staticBtm 3s 5s forwards;
+}
+
+.box1 {
+    left: 0.5rem;
+    position: absolute;
+    animation: ani1 12s 5s infinite;
+    opacity: 0;
+}
+
+.box2 {
+    left: 0.5rem;
+    position: absolute;
+    animation: ani2 12s 5s infinite;
+    opacity: 0;
+}
+
+.box3 {
+    left: 0.5rem;
+    position: absolute;
+    animation: ani3 12s 5s infinite;
+    opacity: 0;
+}
+
+.box4 {
+    left: 0.5rem;
+    position: absolute;
+    animation: ani4 12s 5s infinite;
+    opacity: 0;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+@keyframes staticBtm {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes ani1 {
+    0% {
+        opacity: 0;
+    }
+    12.5%{
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani2 {
+    25% {
+        opacity: 0;
+    }
+    37.5% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani3 {
+    50% {
+        opacity: 0;
+    }
+    62.5% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+}
+
+@keyframes ani4 {
+    75% {
+        opacity: 0;
+    }
+    87.5% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.landingPage {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding-top: 0vh;
+    min-height: 80vh;
+}
+
+.introText {
+    padding-top: 10vh;
+}
+
+.btmText {
+    margin-right: 18%;
+    display: inline-flex;
+    place-content: center;
+}
