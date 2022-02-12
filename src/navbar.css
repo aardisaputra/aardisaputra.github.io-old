@@ -1,0 +1,73 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.homeBtn {
+    font-size: large;
+    transform: scale(1.1);
+    padding: 0.2vw;
+}
+
+.menuBtn {
+    font-size: large;
+    transform: scale(1.1);
+    padding: 0.2vw;
+}
+
+.logoImg {
+    width: 5%;
+    height: auto;
+} 
+
+@media screen and (max-width: 1000px) {
+    .logoImg {
+        width: 10%;
+        height: auto;
+    } 
+}
+
+@media screen and (max-width: 650px) {
+    .logoImg {
+        width: 15%;
+        height: auto;
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .homeBtn {
+        font-size: large;
+        padding: 0.5vw;
+    }
+    
+    .menuBtn {
+        font-size: large;
+        padding: 0.5vw;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navBar {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    .homeBtn {
+        font-size: large;
+        padding: 1;
+    }
+    
+    .menuBtn {
+        font-size: large;
+        padding: 1vw;
+    }
+
+    .logoImg {
+        width: 20%;
+        height: auto;
+    }
+}
