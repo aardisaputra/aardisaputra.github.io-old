@@ -141,15 +141,63 @@ h2 {
     place-content: center;
     text-align: center;
     padding-top: 0vh;
-    min-height: 80vh;
+    min-height: 85vh;
 }
 
 .introText {
-    padding-top: 10vh;
+    padding-top: -5vh;
 }
 
 .btmText {
-    margin-right: 18%;
+    margin-right: 16%;
     display: inline-flex;
     place-content: center;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 10%;
+    right: 49%;
+    animation: arrowAni 2s 5s forwards,
+            bounce 2s 6s infinite;
+    opacity: 0;
+}
+
+
+
+@keyframes arrowAni {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    50% {
+        bottom: 12%;
+    }
+    100% {
+        bottom: 10%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .box1 {
+        left: 0.4rem;
+    }
+    
+    .box2 {
+        left: 0.4rem;
+    }
+    
+    .box3 {
+        left: 0.4rem;
+    }
+    
+    .box4 {
+        left: 0.4rem;
+    }
+
+    .arrow {
+        right: 47%;
+    }
 }

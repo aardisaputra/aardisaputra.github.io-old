@@ -1,5 +1,6 @@
 import React from 'react';
 import './body.css';
+import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 
 function body() {
     return (
@@ -18,6 +19,14 @@ function body() {
                         <div className='box4'>thinker</div>
                     </div>
                 </h2>
+            </div>
+
+            <div className='arrow'>
+                <KeyboardArrowDownOutlinedIcon fontSize='large'/>
+            </div>
+
+            <div className='filler'>
+                
             </div>
         </div>
     )
