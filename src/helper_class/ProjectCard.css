@@ -1,0 +1,41 @@
+.card:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardContent {
+    height: 300px;
+}
+
+.cardContent2 {
+    height: 260px;
+}
+
+@media screen and (max-width: 1200px) {
+    .card {
+        width: 80%;
+    }
+
+    .cardContent {
+        height: 250px;
+    }
+
+    .cardContent2 {
+        height: 210px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 50%;
+    }
+
+    .cardContent {
+        height: 250px;
+    }
+}

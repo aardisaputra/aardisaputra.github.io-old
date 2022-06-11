@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Zen+Kaku+Gothic+Antique&display=swap');
 
+.landingPage 
+
 h1 {
     font-size: clamp(1rem, 3vw + 1rem, 4rem);
     position: relative;
@@ -8,6 +10,7 @@ h1 {
     text-align: center;
     height: 100%;
     width: max-content;
+    z-index: -1;
 }
 
 h1::before,
@@ -18,11 +21,13 @@ h1::after {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: -1;
 }
 
 h1::before {
     background-color: #fff;
     animation: typewriter 3s steps(21) 750ms forwards; 
+    z-index: 0;
 }
 
 h1::after {
@@ -31,15 +36,17 @@ h1::after {
     animation: 
         typewriter 3s steps(21) 750ms  forwards,
         blink 750ms steps(24) infinite; 
+    z-index: 0;
 }
 
-h2 {
+.btmText h2 {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-size: clamp(0.8rem, 1.5vw + 0.5rem, 2rem);
     padding-top: 1.5em;
     position: relative;
     opacity: 0;
     animation: staticBtm 3s 5s forwards;
+    z-index: -1;
 }
 
 .box1 {
@@ -161,6 +168,7 @@ h2 {
     animation: arrowAni 2s 5s forwards,
             bounce 2s 6s infinite;
     opacity: 0;
+    z-index: -1;
 }
 
 

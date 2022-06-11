@@ -1,0 +1,35 @@
+.projects {
+    background-color: #272343 ;
+    color: white;
+    text-align: center;
+    padding-bottom: 5vh;
+    padding-top: 2vh;
+}
+
+.projects h2 {
+    text-align: center;
+    padding-top: 1.5vw;
+    font-family: 'Space Mono', monospace;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+.projects hr { 
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.projectsGrid {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 3vh;
+    padding-bottom: 4vh;
+}
+
+.projects p {
+    color: w;
+}
