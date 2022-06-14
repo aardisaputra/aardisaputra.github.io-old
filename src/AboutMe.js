@@ -9,6 +9,7 @@ import { Divider } from "@mui/material";
 function AboutMe() {
   return (
     <div className="aboutMe">
+      <a class="anchor" id="intro"></a>
       <h2>Who Am I?</h2>
       <hr></hr>
       <img src={face} className="profpic" />

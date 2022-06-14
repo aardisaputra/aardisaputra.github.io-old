@@ -1,19 +1,87 @@
 import React from "react";
 import "./Footer.css";
+import Button from "@mui/material/Button";
+import Grid from "@material-ui/core/Grid";
+import Box from "@mui/material/Box";
+import IconButton from "@mui/material/IconButton";
+
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import MailIcon from "@mui/icons-material/Mail";
+
+const theme = createTheme({
+  status: {
+    danger: "#e53e3e",
+  },
+  palette: {
+    primary: {
+      main: "#0971f1",
+      darker: "#053e85",
+    },
+    neutral: {
+      main: "#fff",
+      contrastText: "#000000",
+    },
+  },
+});
 
 function Footer() {
   return (
-    <div className="footer">
-      It is a long established fact that a reader will be distracted by the
-      readable content of a page when looking at its layout. The point of using
-      Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-      as opposed to using 'Content here, content here', making it look like
-      readable English. Many desktop publishing packages and web page editors
-      now use Lorem Ipsum as their default model text, and a search for 'lorem
-      ipsum' will uncover many web sites still in their infancy. Various
-      versions have evolved over the years, sometimes by accident, sometimes on
-      purpose (injected humour and the like).
-    </div>
+    <ThemeProvider theme={theme}>
+      <a id="contact" />
+      <div className="footer">
+        <Grid container justify="center">
+          <Button
+            variant="contained"
+            size="large"
+            color="neutral"
+            href="https://drive.google.com/file/d/18slvA42oQLji7TzwWk8b6WeVocw0PuG2/view?usp=sharing"
+          >
+            <h3>DOWNLOAD RESUME</h3>
+          </Button>
+        </Grid>
+        <Grid className="icons" container justify="center">
+          <IconButton href="https://www.instagram.com/austinardisaputra/">
+            <InstagramIcon
+              className="icon"
+              color="neutral"
+              size="large"
+              fontSize="large"
+            />
+          </IconButton>
+          <IconButton href="https://www.linkedin.com/in/austin-ardisaputra-4726a11b7/">
+            <LinkedInIcon
+              className="icon"
+              color="neutral"
+              size="large"
+              fontSize="large"
+            />
+          </IconButton>
+          <IconButton href="https://github.com/aardisaputra">
+            <GitHubIcon
+              className="icon"
+              color="neutral"
+              size="large"
+              fontSize="large"
+            />
+          </IconButton>
+          <IconButton href="mailto:ardisaputra@berkeley.edu">
+            <MailIcon
+              className="icon"
+              color="neutral"
+              size="large"
+              fontSize="large"
+            />
+          </IconButton>
+        </Grid>
+        <div className="copyright">
+          <p>© Copyright 2022 Austin Nicola Ardisaputra</p>{" "}
+        </div>
+      </div>
+    </ThemeProvider>
   );
 }
 

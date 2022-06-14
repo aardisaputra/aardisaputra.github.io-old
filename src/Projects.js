@@ -22,6 +22,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div className="projects">
+        <a class="anchor" id="projects"></a>
         <h2> Check out some of my projects! </h2>
         <hr />
         <div className="projectsGrid">
@@ -32,7 +33,9 @@ class Projects extends React.Component {
             <ProjectCard image1={Gitlet} image2={TestImg2} />
           </Grid>
         </div>
-        <p>Click here to see more!</p>
+        <a class="moreGHub" href="https://github.com/aardisaputra">
+          <p>Check out my GitHub to see more!</p>
+        </a>
       </div>
     );
   }

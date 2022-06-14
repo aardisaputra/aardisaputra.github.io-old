@@ -6,6 +6,13 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import Campanile from "./media/berkeley.png";
 
+import ExpItem from "./helper_class/ExpItem";
+import Urbaneyes from "./media/exp/urbaneyes.png";
+import Memoryz from "./media/exp/memoryz.png";
+import Blum from "./media/exp/blum.png";
+import Ieee from "./media/exp/ieee.png";
+import Ghq from "./media/exp/ghq.png";
+
 function App() {
   return (
     <div className="app">
@@ -17,59 +24,43 @@ function App() {
       <AboutMe />
       <Projects />
       <div className="experience">
+        <a id="exp" />
         <h2>Experience</h2>
         <hr />
         <div className="expList">
           <ul>
-            <li>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
-            </li>
-            <li>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
-            </li>
-            <li>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
-            </li>
-            <li>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English. Many desktop
-              publishing packages and web page editors now use Lorem Ipsum as
-              their default model text, and a search for 'lorem ipsum' will
-              uncover many web sites still in their infancy. Various versions
-              have evolved over the years, sometimes by accident, sometimes on
-              purpose (injected humour and the like).
-            </li>
+            <ExpItem
+              img={Urbaneyes}
+              org="UrbanEyes"
+              position="Data Scientist • Jun 2022 - Present"
+            />
+            <ExpItem
+              img={Memoryz}
+              org="Memoryz"
+              position="Software Engineer • May 2022 - Present"
+            />
+            <ExpItem
+              img={Blum}
+              org="Blum Center"
+              position="Web Developer • Feb 2022 - Present"
+            />
+            <ExpItem
+              img={Ieee}
+              org="UC Berkeley IEEE"
+              position="TechOps Officer • Feb 2022 - Present"
+            />
+            <ExpItem
+              img={Ghq}
+              org="Garuda Hacks"
+              position="Technical Director • Feb 2022 - Present"
+            />
           </ul>
+          <a
+            id="moreLIn"
+            href="https://www.linkedin.com/in/austin-ardisaputra-4726a11b7/"
+          >
+            <p>Check out my LinkedIn to see more!</p>
+          </a>
         </div>
       </div>
       <Footer />

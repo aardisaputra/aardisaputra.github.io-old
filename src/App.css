@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .navBarArea {
   position: sticky;
   top: 0;
@@ -22,6 +26,10 @@
   background-color: #E3F6F5;
 }
 
+.experience p {
+  padding-bottom: 3vh;
+}
+
 .experience hr { 
   border-bottom: 3px solid black;
   border-top: 3px solid black;
@@ -38,6 +46,7 @@
   margin-right: auto;
   margin-top: 1.5vw;
   padding-bottom: 2vw;
+  list-style: none;
 }
 
 .expList {
@@ -95,4 +104,42 @@ li {
   .expList {
     background-position: 100% 0%;
   }
+  .expList ul {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .expList ul {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .expList {
+    background-position: 120% 0%;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .expList {
+    background-position: 140% 0%;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .expList {
+    background-position: 1000% 0%;
+  }
+}
+
+#exp {
+  display: block;
+  position: relative;
+  top: -12vh;
+  visibility: hidden;
+}
+
+#moreLIn {
+  color: black;
 }

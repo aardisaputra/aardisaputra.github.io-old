@@ -48,6 +48,13 @@
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
 
+#intro {
+    display: block;
+    position: relative;
+    top: -12vh;
+    visibility: hidden;
+}
+
 @media screen and (max-width: 1200px) {
     .profpic {
         width: 15%;

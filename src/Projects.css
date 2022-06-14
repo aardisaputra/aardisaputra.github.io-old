@@ -33,3 +33,14 @@
 .projects p {
     color: w;
 }
+
+#projects {
+    display: block;
+    position: relative;
+    top: -12vh;
+    visibility: hidden;
+}
+
+.moreGHub {
+    color: white;
+}

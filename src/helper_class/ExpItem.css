@@ -1,0 +1,22 @@
+.listItem img {
+    vertical-align: middle;
+    padding-right: 1em;
+}
+
+.listItem h3 {
+    padding-top: 1em;
+    padding-left: 2em;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight:bold;
+}
+
+.listItem h4 {
+    padding-top: 3px;
+    padding-left: 1.5em;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-style: italic;
+}
+
+.listItem {
+    margin-bottom: 2em;
+}
