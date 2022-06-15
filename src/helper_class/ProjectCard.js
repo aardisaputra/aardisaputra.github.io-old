@@ -4,7 +4,6 @@ import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import ReactCardFlip from "react-card-flip";
-import Box, { BoxProps } from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import "./ProjectCard.css";
 
@@ -42,12 +41,13 @@ class ProjectCard extends React.Component {
           <div className="card">
             <Card>
               <CardContent className="cardContent2">
-                <Typography variant="h5" component="div">
-                  Lizard
+                <br />
+                <Typography>
+                  <h4>{this.props.title}</h4>
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over
-                  6,000 species, ranging across all continents except Antarctica
+                <br />
+                <Typography>
+                  <div id="projDesc">{this.props.desc}</div>
                 </Typography>
               </CardContent>
             </Card>

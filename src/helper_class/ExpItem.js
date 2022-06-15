@@ -15,6 +15,7 @@ function ExpItem(props) {
             </section>
           </Grid>
         </Grid>
+        <p align="justify">{props.desc}</p>
       </li>
     </div>
   );

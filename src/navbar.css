@@ -3,6 +3,7 @@
     justify-content: space-between;
     background-color: white;
     z-index: 99;
+    height: 64px;
 }
 
 .leftBtn {
@@ -30,23 +31,9 @@
 }
 
 .logoImg {
-    width: 5%;
+    width: 64px;
     height: auto;
 } 
-
-@media screen and (max-width: 1000px) {
-    .logoImg {
-        width: 10%;
-        height: auto;
-    } 
-}
-
-@media screen and (max-width: 650px) {
-    .logoImg {
-        width: 15%;
-        height: auto;
-    } 
-}
 
 @media screen and (max-width: 500px) {
     .homeBtn {
@@ -76,10 +63,5 @@
     .menuBtn {
         font-size: large;
         padding: 1vw;
-    }
-
-    .logoImg {
-        width: 20%;
-        height: auto;
     }
 }

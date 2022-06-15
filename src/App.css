@@ -42,8 +42,7 @@ html {
 .experience ul {
   text-align: left;
   width: 45%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 25%;
   margin-top: 1.5vw;
   padding-bottom: 2vw;
   list-style: none;
@@ -53,7 +52,7 @@ html {
   background-image: url("./media/berkeley.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: 90% 0%;
+  background-position: 100% 0%;
 }
 
 li {
@@ -102,10 +101,32 @@ li {
 
 @media screen and (max-width: 1300px) {
   .expList {
-    background-position: 100% 0%;
+    background-position: 120% 100%;
+    background-size: 30%;
   }
+
+  .experience ul {
+    margin-left: 15%;
+  }
+
   .expList ul {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+
+  .expList {
+    background-position: 120% 100%;
+    background-size: 35%;
+  }
+
+  .experience ul {
+    margin-left: 10%;
+  }
+
+  .expList ul {
+    width: 65%;
   }
 }
 
@@ -113,17 +134,43 @@ li {
   .expList ul {
     width: 70%;
   }
+  .expList {
+    background-position: 135% 100%;
+    background-size: 45%;
+  }
+
+  .experience ul {
+    margin-left: 5%;
+  }
+
 }
 
 @media screen and (max-width: 750px) {
   .expList {
-    background-position: 120% 0%;
+    background-position: 170% 100%;
+    background-size: 55%;
+  }
+
+  .experience ul {
+    margin-left: 0%;
+  }
+
+  .expList ul {
+    width: 75%;
   }
 }
 
 @media screen and (max-width: 660px) {
   .expList {
-    background-position: 140% 0%;
+    background-position: 2000% 0%;
+  }
+
+  .experience ul {
+    margin-left: 0%;
+  }
+
+  .expList ul {
+    width: 85%;
   }
 }
 
@@ -131,12 +178,20 @@ li {
   .expList {
     background-position: 1000% 0%;
   }
+
+  .experience ul {
+    margin-left: 0%;
+  }
+
+  .expList ul {
+    width: 85%;
+  }
 }
 
 #exp {
   display: block;
   position: relative;
-  top: -12vh;
+  top: -64px;
   visibility: hidden;
 }
 

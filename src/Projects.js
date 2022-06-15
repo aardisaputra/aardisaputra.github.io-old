@@ -1,16 +1,7 @@
 import React from "react";
 import "./Projects.css";
-import ReactCardFlip from "react-card-flip";
-import Box, { BoxProps } from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 
-import Card from "@mui/material/Card";
-import CardMedia from "@mui/material/CardMedia";
-import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
-
-import TestImg from "./media/test.jpg";
-import TestImg2 from "./media/test.webp";
 import StockImg from "./media/stock.png";
 import Warden from "./media/warden.jpeg";
 import QuiConnect from "./media/quiconnect.png";
@@ -22,15 +13,33 @@ class Projects extends React.Component {
   render() {
     return (
       <div className="projects">
-        <a class="anchor" id="projects"></a>
+        <a class="anchor" id="projects">
+          Projects Anchor
+        </a>
         <h2> Check out some of my projects! </h2>
         <hr />
         <div className="projectsGrid">
           <Grid container spacing={6}>
-            <ProjectCard image1={StockImg} image2={TestImg2} />
-            <ProjectCard image1={Warden} image2={TestImg2} />
-            <ProjectCard image1={QuiConnect} image2={TestImg2} />
-            <ProjectCard image1={Gitlet} image2={TestImg2} />
+            <ProjectCard
+              image1={StockImg}
+              title="Stock Portfolio Rebalancer"
+              desc="Awarded 3rd place in UChicago Trading Competition. Implemented strategy is based on the Black Litterman model, built with NumPy and Pandas."
+            />
+            <ProjectCard
+              image1={Warden}
+              title="Warden"
+              desc="Won 1st place in CivHacks hackathon. Built mobile app that compiles up-to-date data on criminal incidents in Berkeley. Built with React Native, Flask, and the Gmail API."
+            />
+            <ProjectCard
+              image1={QuiConnect}
+              title="QuiConnect"
+              desc="CalHacks hackathon project. Developed alternative to the default contacts app by utilizing QR codes to share all social media and contact information in one go."
+            />
+            <ProjectCard
+              image1={Gitlet}
+              title="Gitlet"
+              desc="Miniature clone of the version-control system Git. Built purely using Java, implemented BFS algorithms such as Djikstra's."
+            />
           </Grid>
         </div>
         <a class="moreGHub" href="https://github.com/aardisaputra">

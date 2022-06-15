@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Space+Mono&family=Zen+Kaku+Gothic+Antique&display=swap');
+
 .card:hover {
     transform: scale(1.05);
     transition-duration: 0.5s;
@@ -16,6 +18,19 @@
     height: 260px;
 }
 
+.card h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+#projDesc {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: medium;
+    text-align: justify;
+}
+
 @media screen and (max-width: 1200px) {
     .card {
         width: 80%;
@@ -30,7 +45,7 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 960px) {
     .card {
         width: 50%;
     }

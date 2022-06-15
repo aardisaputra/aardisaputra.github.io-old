@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Zen+Kaku+Gothic+Antique&display=swap');
 
-.landingPage 
-
 h1 {
     font-size: clamp(1rem, 3vw + 1rem, 4rem);
     position: relative;
