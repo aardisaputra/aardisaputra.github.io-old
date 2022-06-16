@@ -9,7 +9,10 @@ import Menu from "./helper_class/Menu.js";
 import Grid from "@material-ui/core/Grid";
 import "./helper_class/Menu.css";
 
-import CloseIcon from "@mui/icons-material/Close";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
 
 function Navbar() {
   const [visible, setVisible] = useState(false);
@@ -28,52 +31,54 @@ function Navbar() {
           setVisible(!visible);
         }}
       ></div>
-      <div className="navBar">
-        <div className="leftBtn"></div>
+      <AppBar position="sticky">
+        <div className="navBar">
+          <div className="leftBtn"></div>
 
-        <img src={logoImg} className="logoImg" alt="logo" />
+          <img src={logoImg} className="logoImg" alt="logo" />
 
-        <div className="rightBtn">
-          <IconButton
-            onClick={() => {
-              setVisible(!visible);
-            }}
-          >
-            <MenuIcon fontSize="inherit" className="menuBtn" />
-          </IconButton>
+          <div className="rightBtn">
+            <IconButton
+              onClick={() => {
+                setVisible(!visible);
+              }}
+            >
+              <MenuIcon fontSize="inherit" className="menuBtn" />
+            </IconButton>
+          </div>
+
+          <div id="flyoutMenu" className={visibility}>
+            <h2
+              onClick={() => {
+                setVisible(!visible);
+              }}
+            >
+              <a href="#intro">About Me</a>
+            </h2>
+            <h2
+              onClick={() => {
+                setVisible(!visible);
+              }}
+            >
+              <a href="#projects">Projects</a>
+            </h2>
+            <h2
+              onClick={() => {
+                setVisible(!visible);
+              }}
+            >
+              <a href="#exp">Experience</a>
+            </h2>
+            <h2
+              onClick={() => {
+                setVisible(!visible);
+              }}
+            >
+              <a href="#contact">Contact</a>
+            </h2>
+          </div>
         </div>
-
-        <div id="flyoutMenu" className={visibility}>
-          <h2
-            onClick={() => {
-              setVisible(!visible);
-            }}
-          >
-            <a href="#intro">About Me</a>
-          </h2>
-          <h2
-            onClick={() => {
-              setVisible(!visible);
-            }}
-          >
-            <a href="#projects">Projects</a>
-          </h2>
-          <h2
-            onClick={() => {
-              setVisible(!visible);
-            }}
-          >
-            <a href="#exp">Experience</a>
-          </h2>
-          <h2
-            onClick={() => {
-              setVisible(!visible);
-            }}
-          >
-            <a href="#contact">Contact</a>
-          </h2>
-        </div>
-      </div>
+      </AppBar>
     </div>
   );
 }

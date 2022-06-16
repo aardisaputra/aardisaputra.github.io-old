@@ -4,6 +4,7 @@
     text-align: center;
     padding-bottom: 5vh;
     padding-top: 2vh;
+    width: 100%;
 }
 
 .projects h2 {
@@ -15,8 +16,7 @@
 }
 
 .projects hr { 
-    border-bottom: 3px solid white;
-    border-top: 3px solid white;
+    border: 3px solid white;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -43,4 +43,18 @@
 
 .moreGHub {
     color: white;
+}
+
+@media screen and (max-width: 800px) {
+    .projectsGrid {
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projectsGrid {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
 }

@@ -26,3 +26,9 @@
     margin-bottom: 2em;
     background-color: #E3F6F5;
 }
+
+@media screen and (max-width: 525px) {
+    .listItem p {
+        margin-top: 0em;
+    }
+}

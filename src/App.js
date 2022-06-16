@@ -15,8 +15,8 @@ import Ghq from "./media/exp/ghq.png";
 function App() {
   return (
     <div className="app">
+      <Navbar />
       <div className="navBarArea">
-        <Navbar />
         <hr></hr>
       </div>
       <Body />
