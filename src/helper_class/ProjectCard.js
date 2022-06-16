@@ -41,11 +41,10 @@ class ProjectCard extends React.Component {
           <div className="card">
             <Card>
               <CardContent className="cardContent2">
-                <br />
                 <Typography>
                   <h4>{this.props.title}</h4>
                 </Typography>
-                <br />
+
                 <Typography>
                   <div id="projDesc">{this.props.desc}</div>
                 </Typography>

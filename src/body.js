@@ -16,7 +16,7 @@ function Body() {
             <div className="box1">learner</div>
             <div className="box2">developer</div>
             <div className="box3">thinker</div>
-            <div className="box4">trailblazer</div>
+            <div className="box4">leader</div>
           </div>
         </h2>
       </div>
