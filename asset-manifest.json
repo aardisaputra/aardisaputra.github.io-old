@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e95d86db.css",
-    "main.js": "/static/js/main.86f85433.js",
-    "static/js/787.adbb6884.chunk.js": "/static/js/787.adbb6884.chunk.js",
-    "static/media/berkeley.png": "/static/media/berkeley.33d7cd629c3ba08d8edb.png",
-    "static/media/profpic.jpeg": "/static/media/profpic.c82a0c03e170a3425565.jpeg",
-    "static/media/indonesia.png": "/static/media/indonesia.8852adb3b9c9934a10cc.png",
-    "static/media/quiconnect.png": "/static/media/quiconnect.08e815cc63b0b06f7e2b.png",
-    "static/media/stock.png": "/static/media/stock.468c64339d2a0bc1be47.png",
-    "static/media/gitlet.png": "/static/media/gitlet.3a624d856a099641454c.png",
-    "static/media/blum.png": "/static/media/blum.71314879c8ff5e3d1e89.png",
-    "static/media/warden.jpeg": "/static/media/warden.e0d2eb1a98a198760580.jpeg",
-    "static/media/ieee.png": "/static/media/ieee.8356920f74e1dbcf3bc2.png",
-    "static/media/memoryz.png": "/static/media/memoryz.8b478bf0d768c483daa3.png",
-    "index.html": "/index.html",
-    "main.e95d86db.css.map": "/static/css/main.e95d86db.css.map",
-    "main.86f85433.js.map": "/static/js/main.86f85433.js.map",
-    "787.adbb6884.chunk.js.map": "/static/js/787.adbb6884.chunk.js.map"
+    "main.css": "/aardisaputra.github.io/static/css/main.b289cc2d.css",
+    "main.js": "/aardisaputra.github.io/static/js/main.d3ca4fc3.js",
+    "static/js/787.adbb6884.chunk.js": "/aardisaputra.github.io/static/js/787.adbb6884.chunk.js",
+    "static/media/berkeley.png": "/aardisaputra.github.io/static/media/berkeley.33d7cd629c3ba08d8edb.png",
+    "static/media/profpic.jpeg": "/aardisaputra.github.io/static/media/profpic.c82a0c03e170a3425565.jpeg",
+    "static/media/indonesia.png": "/aardisaputra.github.io/static/media/indonesia.8852adb3b9c9934a10cc.png",
+    "static/media/quiconnect.png": "/aardisaputra.github.io/static/media/quiconnect.08e815cc63b0b06f7e2b.png",
+    "static/media/stock.png": "/aardisaputra.github.io/static/media/stock.468c64339d2a0bc1be47.png",
+    "static/media/gitlet.png": "/aardisaputra.github.io/static/media/gitlet.3a624d856a099641454c.png",
+    "static/media/blum.png": "/aardisaputra.github.io/static/media/blum.71314879c8ff5e3d1e89.png",
+    "static/media/warden.jpeg": "/aardisaputra.github.io/static/media/warden.e0d2eb1a98a198760580.jpeg",
+    "static/media/ieee.png": "/aardisaputra.github.io/static/media/ieee.8356920f74e1dbcf3bc2.png",
+    "static/media/memoryz.png": "/aardisaputra.github.io/static/media/memoryz.8b478bf0d768c483daa3.png",
+    "index.html": "/aardisaputra.github.io/index.html",
+    "main.b289cc2d.css.map": "/aardisaputra.github.io/static/css/main.b289cc2d.css.map",
+    "main.d3ca4fc3.js.map": "/aardisaputra.github.io/static/js/main.d3ca4fc3.js.map",
+    "787.adbb6884.chunk.js.map": "/aardisaputra.github.io/static/js/787.adbb6884.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e95d86db.css",
-    "static/js/main.86f85433.js"
+    "static/css/main.b289cc2d.css",
+    "static/js/main.d3ca4fc3.js"
   ]
 }
