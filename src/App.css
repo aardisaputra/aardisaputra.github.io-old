@@ -188,7 +188,6 @@ li {
 #exp {
   display: block;
   position: relative;
-  top: -64px;
   visibility: hidden;
 }
 
