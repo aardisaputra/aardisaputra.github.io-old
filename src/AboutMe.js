@@ -15,7 +15,7 @@ function AboutMe() {
       <img src={face} className="profpic" />
       <div className="intro">
         <p>
-          Born and raised in Indonesia, I am a rising sophomore at UC Berkeley
+          Born and raised in Indonesia, I am a college student at UC Berkeley
           studying Computer Science, Business Administration, and Data Science.
           Many things pique my interest, whether it's full-stack development,
           machine learning, dApp development, basketball, playing musical
