@@ -11,6 +11,7 @@ import Memoryz from "./media/exp/memoryz.png";
 import Blum from "./media/exp/blum.png";
 import Ieee from "./media/exp/ieee.png";
 import Ghq from "./media/exp/ghq.png";
+import OneIT from "./media/exp/oneIT.png";
 
 function App() {
   return (
@@ -29,15 +30,21 @@ function App() {
         <div className="expList">
           <ul>
             <ExpItem
+              img={OneIT}
+              org="UC Berkeley (One IT)"
+              position="Web Accessibility Engineer • Jul 2022 - Present"
+              desc="Campus-wide team responsible for tools, data, and infrastructure that power the campus experience. Performed accessibility audits on Berkeley websites based on WCAG standards while carrying out simple fixes using the Open Berkeley toolset."
+            />
+            <ExpItem
               img={Urbaneyes}
               org="UrbanEyes"
-              position="Data Scientist • Jun 2022 - Present"
+              position="Data Scientist • Jun 2022 - Aug 2022"
               desc="A startup aiming to provide more precise real estate data and ML-driven insights for CRE investors. Worked with NumPy, Pandas, h3-py, Geopandas, folium, and other libraries for data visualization and analysis, as well as data preprocessing and cleaning."
             />
             <ExpItem
               img={Memoryz}
               org="Memoryz"
-              position="Software Engineer • May 2022 - Present"
+              position="Software Engineer • May 2022 - Aug 2022"
               desc="Digital caregiving companion app targeted towards families with members experiencing dementia. Used React Native and PostgreSQL for full-stack development of mobile app."
             />
             <ExpItem
@@ -45,12 +52,6 @@ function App() {
               org="Blum Center for Developing Economies"
               position="Web Developer • Feb 2022 - Present"
               desc="On campus hub for students and researchers aiming to solve world problems such as global poverty through various initiatives. Managed and improved websites for the Big Ideas Contest and Health Tech CoLab using HTML, CSS, Wordpress, etc."
-            />
-            <ExpItem
-              img={Ieee}
-              org="UC Berkeley IEEE"
-              position="TechOps Officer • Feb 2022 - Present"
-              desc="UC Berkeley's branch of the largest international technical professional organization. Maintained website server with Nginx, mail communication with Postfix, and led the 'DIY-API project' as part of their educational projects initiative."
             />
             <ExpItem
               img={Ghq}

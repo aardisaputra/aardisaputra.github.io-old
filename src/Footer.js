@@ -52,7 +52,7 @@ function Footer() {
               fontSize="large"
             />
           </IconButton>
-          <IconButton href="https://www.linkedin.com/in/austin-ardisaputra-4726a11b7/">
+          <IconButton href="https://www.linkedin.com/in/aardisaputra/">
             <LinkedInIcon
               className="icon"
               color="neutral"
