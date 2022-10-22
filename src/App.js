@@ -56,14 +56,11 @@ function App() {
             <ExpItem
               img={Ghq}
               org="Garuda Hacks"
-              position="Technical Director • Feb 2022 - Present"
-              desc="Largest student-led annual hackathon in Southeast Asia by participant count targeted towards Indonesian high school students. Led team to develop website, build and manage Discord server, reach out to technology partners, etc."
+              position="Technical Advisor • Feb 2022 - Present"
+              desc="Largest student-led annual hackathon in Southeast Asia by participant count targeted towards Indonesian high school students. Led tech team to develop website, build and manage Discord server, reach out to technology partners, etc."
             />
           </ul>
-          <a
-            id="moreLIn"
-            href="https://www.linkedin.com/in/austin-ardisaputra-4726a11b7/"
-          >
+          <a id="moreLIn" href="https://www.linkedin.com/in/aardisaputra/">
             <p>Check out my LinkedIn to see more!</p>
           </a>
         </div>

@@ -38,7 +38,7 @@ function Footer() {
             variant="contained"
             size="large"
             color="neutral"
-            href="https://drive.google.com/file/d/1X9moKYPbK2UYZywDm3VHqgV23qYBvNue/view?usp=sharing"
+            href="https://drive.google.com/file/d/17P-oOD2Wv9x3mmcxbL6j3bAQnHMZS9t0/view?usp=sharing"
           >
             <h3>DOWNLOAD RESUME</h3>
           </Button>

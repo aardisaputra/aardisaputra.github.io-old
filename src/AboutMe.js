@@ -16,11 +16,10 @@ function AboutMe() {
       <div className="intro">
         <p>
           Born and raised in Indonesia, I am a student at UC Berkeley studying
-          Computer Science, Business Administration, and Data Science. Many
-          things pique my interest, whether it's full-stack development, machine
-          learning, dApp development, basketball, playing musical instruments,
-          or even just talking with people. Feel free to reach out through my
-          socials or email!
+          Computer Science. Many things pique my interest, whether it's
+          full-stack development, machine learning, dApp development,
+          basketball, playing musical instruments, or even just talking with
+          people. Feel free to reach out through my socials or email!
         </p>
       </div>
     </div>
